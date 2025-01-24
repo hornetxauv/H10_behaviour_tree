@@ -40,19 +40,19 @@ def main():
     task_1 = PublishTask(
         node=node,
         name="Task 1",
-        topic_name="topic_1",
+        topic_name="topic",
         message="Message from Task 1"
     )
     task_2 = PublishTask(
         node=node,
         name="Task 2",
-        topic_name="topic_1",
+        topic_name="topic",
         message="Message from Task 2"
     )
     task_3 = PublishTask(
         node=node,
         name="Task 3",
-        topic_name="topic_1",
+        topic_name="topic",
         message="Message from Task 3"
     )
 
