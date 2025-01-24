@@ -72,7 +72,6 @@ def main():
     behaviour_tree.setup(node=node)
 
     try:
-        rate = node.create_rate(2.0)  # 2 Hz
         while rclpy.ok():
             behaviour_tree.tick()
             rclpy.spin_once(node, timeout_sec=0.1)
